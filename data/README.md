@@ -13,3 +13,7 @@ The following information is also available in the link above.
 - __classes.txt__ - The label for each species. This duplicates information that you can find in [train_labels.csv](/data/train_labels.csv) and [train_images.csv](/data/train_images.csv), but might be convenient to use
 - __test.tgz__ - The images in the test set
 - __train.tgz__ - The images in the training set, arranged by species
+
+Both the training and the test sets contain 4,320 images, with 30 from each of 144 classes. The data comes from the Caltech-UCSD Birds-200-2011 dataset here: http://www.vision.caltech.edu/visipedia/CUB-200-2011.html.
+
+The images you need to classify are the ones in test.tgz.
